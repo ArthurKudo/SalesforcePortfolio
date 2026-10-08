@@ -1,0 +1,35 @@
+{
+  "name": "arthur-kudo-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist -t -m \"Deploy portfolio\""
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.4.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lenis": "^1.3.26",
+    "lucide-react": "^1.52.0",
+    "motion": "^12.43.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.19.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~5.9",
+    "vite": "^7.3.7"
+  },
+  "homepage": "https://arthurkudo.github.io/SalesforcePortfolio/"
+}
